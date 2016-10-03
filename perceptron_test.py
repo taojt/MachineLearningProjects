@@ -6,7 +6,8 @@
 import random
 
 if __name__ == '__main__':
-    print(__doc__)
+    print(__doc__,'\n')
+
     train_set = [(1, 1, -1, 1), (1, -4, 7, 1), (-2, 1, -8, -1)]
     w1 = w2 = w3 = b = 0;
     n = 1  # learning rate = 1
